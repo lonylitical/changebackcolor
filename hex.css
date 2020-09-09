@@ -1,0 +1,26 @@
+body
+{
+    min-height: 98vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:3px solid rgb(255, 255, 255);
+    border-radius: 7px;
+}
+.colorBtn
+{
+    padding: 0.25rem 0.5rem;
+    border: 3px solid #fefefe;
+    border-radius: 7px;
+    color: #fefefe;
+    background: rgba(0,0,0, 0.6);
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    cursor: pointer;
+    outline: none;
+}
+.colorBtn:hover
+{
+    background: rgba(0,0,0);
+    cursor: pointer ;
+}
